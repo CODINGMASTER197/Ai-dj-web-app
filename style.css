@@ -32,3 +32,13 @@ background-size: cover;
     font-size: 23px;
     margin: 15px;
 }
+canvas{
+    border-radius: 20px;
+    animation-name: surya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes surya{
+    from{box-shadow: 10px 10px 10px red;}
+    to{box-shadow: 10px 10px 10px yellow;}
+}
